@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ランダム</title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" type="text/css" href="random.css">
+	<script type="text/javascript" src="random.js"></script>
+</head>
+<body>
+<div id="left">
+	
+	<form name="js">
+		<input type="text" name="addText" value=""><input type="button" name="addBtn" value="追加" onclick="addString()"><br>
+		<input type="button" name="randomBtn" value="ランダム" onclick="random()">
+		<input type="button" value="リセット" onclick="resetBtn()">
+		<ul id="textList">
+		</ul>
+	</form>
+</div>
+
+<div id="right">
+	ランダム表示
+	<ul id="randomUl">
+	</ul>
+	<!-- <input type="button" value=""> -->
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+#left {
+	border-right: 1px solid #333;
+	display: inline-block;
+	padding-right: 1.5em;
+
+
+}
+#right {
+	/*background: #ff0;*/
+	border-left: 1px solid #333;
+	display: inline-block;
+	padding-top: 1.8em;
+	padding-left: 1.5em;
+	margin-left: -6px;
+	vertical-align: top;
+
+}
+
+
+li {
+	list-style:none;
+	height: 24px;
+}
+
+
+
+
+
+
+
+
+#textList {
+	padding-left: 1em;
+}
+#textList input[type="button"]{
+	margin-left: 1em;
+}
+
+
+
